@@ -1,0 +1,13 @@
+PODS:
+  - MZTimerLabel (0.5.4)
+  - UIView+DragDrop (1.0.0)
+
+DEPENDENCIES:
+  - MZTimerLabel
+  - UIView+DragDrop
+
+SPEC CHECKSUMS:
+  MZTimerLabel: cd9bfb9304540ef2a9e163384fca9c978f0dbf83
+  UIView+DragDrop: 177f003492e50bc248524d181d4a25cc507d21c7
+
+COCOAPODS: 0.38.2
