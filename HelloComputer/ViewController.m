@@ -23,8 +23,8 @@ NSUInteger const autoStartGameTime = 60;
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
 
     self.autoStartTimer = [NSTimer scheduledTimerWithTimeInterval:autoStartGameTime target:self selector:@selector(autoStartGame) userInfo:nil repeats:NO];
     self.AFKMessage.alpha = 0;
@@ -50,10 +50,16 @@ NSUInteger const autoStartGameTime = 60;
     [self performSegueWithIdentifier:storySegue sender:nil];
     [self.autoStartTimer invalidate];
     self.autoStartTimer = nil;
+    self.AFKMessage.alpha = 0;
+    self.AFKMessage.hidden = YES;
 }
 
 - (IBAction)settingsPressed:(id)sender {
     [self performSegueWithIdentifier:settingsSegue sender:nil];
+    [self.autoStartTimer invalidate];
+    self.autoStartTimer = nil;
+    self.AFKMessage.alpha = 0;
+    self.AFKMessage.hidden = YES;
 }
 
 @end
