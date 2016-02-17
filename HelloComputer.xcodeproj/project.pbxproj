@@ -12,6 +12,8 @@
 		90428B881C73085B00EAE92F /* GameStoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90428B871C73085B00EAE92F /* GameStoryViewController.m */; };
 		90428B8C1C730A8900EAE92F /* FirstLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90428B8B1C730A8900EAE92F /* FirstLevelViewController.m */; };
 		90428B901C730F4400EAE92F /* SecondLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90428B8F1C730F4400EAE92F /* SecondLevelViewController.m */; };
+		907A23841C74530800F6D4EE /* ITODSOP_13562.docx in Resources */ = {isa = PBXBuildFile; fileRef = 907A23821C74530800F6D4EE /* ITODSOP_13562.docx */; };
+		907A23851C74530800F6D4EE /* ITODSOP_13562.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 907A23831C74530800F6D4EE /* ITODSOP_13562.pdf */; };
 		90CE0E3C1C72653F0044C79E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CE0E3B1C72653F0044C79E /* main.m */; };
 		90CE0E3F1C72653F0044C79E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CE0E3E1C72653F0044C79E /* AppDelegate.m */; };
 		90CE0E421C72653F0044C79E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CE0E411C72653F0044C79E /* ViewController.m */; };
@@ -42,6 +44,8 @@
 		90428B8B1C730A8900EAE92F /* FirstLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstLevelViewController.m; sourceTree = "<group>"; };
 		90428B8E1C730F4400EAE92F /* SecondLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondLevelViewController.h; sourceTree = "<group>"; };
 		90428B8F1C730F4400EAE92F /* SecondLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondLevelViewController.m; sourceTree = "<group>"; };
+		907A23821C74530800F6D4EE /* ITODSOP_13562.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = ITODSOP_13562.docx; sourceTree = "<group>"; };
+		907A23831C74530800F6D4EE /* ITODSOP_13562.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ITODSOP_13562.pdf; sourceTree = "<group>"; };
 		90CE0E361C72653F0044C79E /* HelloComputer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloComputer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90CE0E3A1C72653F0044C79E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90CE0E3B1C72653F0044C79E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -146,6 +150,8 @@
 		90CE0E2D1C72653F0044C79E = {
 			isa = PBXGroup;
 			children = (
+				907A23821C74530800F6D4EE /* ITODSOP_13562.docx */,
+				907A23831C74530800F6D4EE /* ITODSOP_13562.pdf */,
 				90CE0E381C72653F0044C79E /* HelloComputer */,
 				90CE0E521C72653F0044C79E /* HelloComputerTests */,
 				90CE0E371C72653F0044C79E /* Products */,
@@ -298,9 +304,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				907A23841C74530800F6D4EE /* ITODSOP_13562.docx in Resources */,
 				90CE0E451C72653F0044C79E /* Main.storyboard in Resources */,
 				90CE0E4A1C72653F0044C79E /* LaunchScreen.xib in Resources */,
 				90CE0E471C72653F0044C79E /* Images.xcassets in Resources */,
+				907A23851C74530800F6D4EE /* ITODSOP_13562.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
